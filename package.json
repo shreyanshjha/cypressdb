@@ -1,0 +1,17 @@
+{
+  "name": "cypressdb",
+  "version": "1.0.0",
+  "description": "Connect SQL with cypress learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shreyansh Jha",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
+}
