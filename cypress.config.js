@@ -8,10 +8,10 @@ module.exports = defineConfig({
         queryDatabase({ query, values }) {
           const client = new Client({
             host: 'localhost',   // Replace with your database host
-            user: 'postgres',   // Replace with your database user
-            password: '$Triple8128$', // Replace with your database password
-            database: 'shreyanshjha', // Replace with your database name
-            port: 5433,          // Default PostgreSQL port
+            user: 'shreyanshjha',   // Replace with your database user
+            password: 'admin', // Replace with your database password
+            database: 'cypress-learn', // Replace with your database name
+            port: 5432,          // Default PostgreSQL port
           });
 
           return client
